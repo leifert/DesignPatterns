@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibilityPrinciple", "SingleResponsibilityPrinciple\SingleResponsibilityPrinciple.csproj", "{7EEE6EFA-D242-4915-8474-24F3237AAA32}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SOLID", "SOLID", "{5DA43D0D-B279-40B9-B167-54691E76B834}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GoF", "GoF", "{958CE519-0F31-43D5-9532-5B5D6D6B0163}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EEE6EFA-D242-4915-8474-24F3237AAA32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EEE6EFA-D242-4915-8474-24F3237AAA32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EEE6EFA-D242-4915-8474-24F3237AAA32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EEE6EFA-D242-4915-8474-24F3237AAA32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7EEE6EFA-D242-4915-8474-24F3237AAA32} = {5DA43D0D-B279-40B9-B167-54691E76B834}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {079D6E3E-C422-457B-9919-61ACC2889EE0}
+	EndGlobalSection
+EndGlobal
