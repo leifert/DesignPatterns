@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibilityPrinciple", "SingleResponsibilityPrinciple\SingleResponsibilityPrinciple.csproj", "{7EEE6EFA-D242-4915-8474-24F3237AAA32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleResponsibilityPrinciple", "SOLID\SingleResponsibilityPrinciple\SingleResponsibilityPrinciple.csproj", "{7EEE6EFA-D242-4915-8474-24F3237AAA32}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SOLID", "SOLID", "{5DA43D0D-B279-40B9-B167-54691E76B834}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GoF", "GoF", "{958CE519-0F31-43D5-9532-5B5D6D6B0163}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Open-ClosedPrinciple", "SOLID\Open-ClosedPrinciple\Open-ClosedPrinciple.csproj", "{A2AF60AC-A5AE-40E9-9B3A-191E1078B0CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Open-ClosedPrinciple", "SOLID\Open-ClosedPrinciple\Open-ClosedPrinciple.csproj", "{A2AF60AC-A5AE-40E9-9B3A-191E1078B0CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiskovSubstitutionPrinciple", "SOLID\LiskovSubstitutionPrinciple\LiskovSubstitutionPrinciple.csproj", "{B739D779-0A77-4F30-A60E-671A62ED2567}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +27,10 @@ Global
 		{A2AF60AC-A5AE-40E9-9B3A-191E1078B0CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2AF60AC-A5AE-40E9-9B3A-191E1078B0CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2AF60AC-A5AE-40E9-9B3A-191E1078B0CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B739D779-0A77-4F30-A60E-671A62ED2567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B739D779-0A77-4F30-A60E-671A62ED2567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B739D779-0A77-4F30-A60E-671A62ED2567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B739D779-0A77-4F30-A60E-671A62ED2567}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{7EEE6EFA-D242-4915-8474-24F3237AAA32} = {5DA43D0D-B279-40B9-B167-54691E76B834}
 		{A2AF60AC-A5AE-40E9-9B3A-191E1078B0CF} = {5DA43D0D-B279-40B9-B167-54691E76B834}
+		{B739D779-0A77-4F30-A60E-671A62ED2567} = {5DA43D0D-B279-40B9-B167-54691E76B834}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {079D6E3E-C422-457B-9919-61ACC2889EE0}
