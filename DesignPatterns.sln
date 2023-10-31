@@ -11,21 +11,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GoF", "GoF", "{958CE519-0F3
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Open-ClosedPrinciple", "SOLID\Open-ClosedPrinciple\Open-ClosedPrinciple.csproj", "{A2AF60AC-A5AE-40E9-9B3A-191E1078B0CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiskovSubstitutionPrinciple", "SOLID\LiskovSubstitutionPrinciple\LiskovSubstitutionPrinciple.csproj", "{B739D779-0A77-4F30-A60E-671A62ED2567}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiskovSubstitutionPrinciple", "SOLID\LiskovSubstitutionPrinciple\LiskovSubstitutionPrinciple.csproj", "{B739D779-0A77-4F30-A60E-671A62ED2567}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSegregationPrinciple", "SOLID\InterfaceSegregationPrinciple\InterfaceSegregationPrinciple.csproj", "{582EF70B-DEC5-48B7-8738-27429DFC1734}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceSegregationPrinciple", "SOLID\InterfaceSegregationPrinciple\InterfaceSegregationPrinciple.csproj", "{582EF70B-DEC5-48B7-8738-27429DFC1734}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInversionPrinciple", "SOLID\DependencyInversionPrinciple\DependencyInversionPrinciple.csproj", "{0D9D1B05-0BAA-4EE7-94AE-C666A3C38ADD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInversionPrinciple", "SOLID\DependencyInversionPrinciple\DependencyInversionPrinciple.csproj", "{0D9D1B05-0BAA-4EE7-94AE-C666A3C38ADD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{0D2816DF-56A1-4FF7-9586-B6C4137BAC18}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builder", "Builder", "{BAD4A4D1-7B4E-4A21-B0E6-49FAE6837258}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "GoF\Creational\Builder\Builder\Builder.csproj", "{7AF8DD8A-CE32-49B9-83BA-F4B095D910B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "GoF\Creational\Builder\Builder\Builder.csproj", "{7AF8DD8A-CE32-49B9-83BA-F4B095D910B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder2", "GoF\Creational\Builder\Builder2\Builder2.csproj", "{EFBB2339-8CA0-43BE-B781-21AD44FCE8A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder2", "GoF\Creational\Builder\Builder2\Builder2.csproj", "{EFBB2339-8CA0-43BE-B781-21AD44FCE8A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentBuilder", "GoF\Creational\Builder\FluentBuilder\FluentBuilder.csproj", "{BAADDAE5-7DDF-4136-8A4E-ABBDD9FD3E6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentBuilder", "GoF\Creational\Builder\FluentBuilder\FluentBuilder.csproj", "{BAADDAE5-7DDF-4136-8A4E-ABBDD9FD3E6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FactoryMethod", "FactoryMethod", "{72973E26-75A0-48B2-83B1-2FCC4D1E9C2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFactoryMethod", ""GoF\Creational\FactoryMethod\SimpleFactoryMethod\SimpleFactoryMethod.csproj", "{16ECADC4-329D-4676-BBE3-0D29BA8A0424}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "GoF\Creational\FactoryMethod\FactoryMethod\FactoryMethod.csproj", "{025FD705-D698-4D48-8098-07E486B9BBEB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,6 +71,14 @@ Global
 		{BAADDAE5-7DDF-4136-8A4E-ABBDD9FD3E6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAADDAE5-7DDF-4136-8A4E-ABBDD9FD3E6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAADDAE5-7DDF-4136-8A4E-ABBDD9FD3E6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16ECADC4-329D-4676-BBE3-0D29BA8A0424}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16ECADC4-329D-4676-BBE3-0D29BA8A0424}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16ECADC4-329D-4676-BBE3-0D29BA8A0424}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16ECADC4-329D-4676-BBE3-0D29BA8A0424}.Release|Any CPU.Build.0 = Release|Any CPU
+		{025FD705-D698-4D48-8098-07E486B9BBEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{025FD705-D698-4D48-8098-07E486B9BBEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{025FD705-D698-4D48-8098-07E486B9BBEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{025FD705-D698-4D48-8098-07E486B9BBEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -80,6 +94,9 @@ Global
 		{7AF8DD8A-CE32-49B9-83BA-F4B095D910B8} = {BAD4A4D1-7B4E-4A21-B0E6-49FAE6837258}
 		{EFBB2339-8CA0-43BE-B781-21AD44FCE8A2} = {BAD4A4D1-7B4E-4A21-B0E6-49FAE6837258}
 		{BAADDAE5-7DDF-4136-8A4E-ABBDD9FD3E6F} = {BAD4A4D1-7B4E-4A21-B0E6-49FAE6837258}
+		{72973E26-75A0-48B2-83B1-2FCC4D1E9C2B} = {0D2816DF-56A1-4FF7-9586-B6C4137BAC18}
+		{16ECADC4-329D-4676-BBE3-0D29BA8A0424} = {72973E26-75A0-48B2-83B1-2FCC4D1E9C2B}
+		{025FD705-D698-4D48-8098-07E486B9BBEB} = {72973E26-75A0-48B2-83B1-2FCC4D1E9C2B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {079D6E3E-C422-457B-9919-61ACC2889EE0}
