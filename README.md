@@ -11,7 +11,11 @@
   - [I – Interface Segregation Principle](#_toc149219485)
   - [D – Dependency Inversion Principle](#_toc149219486)
 - [Gang of Four (GoF) Návrhové vzory](#_toc149219487)
+  - [Factory Method (Tovární metoda)](#_factoryMethod)
+  - [Abstract Factory (Abstraktní továrna)](#_abstractFactory)
   - [Builder (Stavitel)](#_builder)
+  - [Prototype (Prototyp)](#_prototype)
+  - [Singleton (Jedináček)](#_singleton)
 
 
 
@@ -143,4 +147,20 @@ Vzor Builder navrhuje, abyste extrahovali kód konstrukce objektu z jeho vlastn�
 <p>
   <img src="images/builderUML.png">
 </p>
+
+# <a name="_singleton"></a>[Singleton (Jedináček)](https://github.com/leifert/DesignPatterns/tree/master/GoF/Creational/Singleton)
+**Problém**
+
+Zajistěte, aby třída měla pouze jednu instanci.
+
+**Řešení**
+
+- Udělejte výchozí konstruktor soukromým, aby ostatní objekty nemohly používat operátor new s třídou Singleton.
+- Vytvořte statickou metodu GetInstance, která bude fungovat jako konstruktor. Tato metoda zavolá soukromý konstruktor pro vytvoření objektu a uloží jej do statického pole. Všechna následující volání této metody vracejí objekt uložený v mezipaměti.
+
+<p>
+  <img src="images/singletonUML.png">
+</p>
+
+
 
