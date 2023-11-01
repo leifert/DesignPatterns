@@ -11,6 +11,7 @@
   - [I – Interface Segregation Principle](#_toc149219485)
   - [D – Dependency Inversion Principle](#_toc149219486)
 - [Gang of Four (GoF) Návrhové vzory](#_toc149219487)
+  - [Builder (Stavitel)](#_builder)
 
 
 
@@ -73,6 +74,13 @@ Návrhové vzory GoF jsou rozděleny do tří kategorií:
 - **Creational (Tvořící vzory):** Návrhové vzory, které se zabývají vytvářením objektu.
 - **Structural (Strukturální vzory):** Návrhové vzory v této kategorii se zabývají strukturou tříd, například dědičností a kompozicí.
 - **Behavioral (Vzory chování):** Tento typ návrhových vzorů poskytuje řešení pro lepší interakci mezi objekty, jak zajistit menší závislost a flexibilitu pro snadné rozšiřování v budoucnosti.
+<p>
+  <img src="images/gof.png">
+</p>
+
+<p>
+  <img src="images/gofinteract.jpg">
+</p>
 
 
 **Creational:**
@@ -122,3 +130,17 @@ Návrhové vzory GoF jsou rozděleny do tří kategorií:
 - **Template** **method** (Šablonová metoda) – Definuje kostru algoritmu v nadtřídě, ale umožňuje podtřídám přepsat konkrétní kroky algoritmu beze změny jeho struktury.
 
 - **Visitor** (Návštěvník) – Umožňuje oddělit algoritmy od objektů, na kterých pracují.
+
+# <a name="_builder"></a>[Builder (Stavitel)](https://github.com/leifert/DesignPatterns/tree/master/GoF/Creational/Builder)
+**Problém**
+
+Představte si složitý objekt, který vyžaduje pracnou postupnou inicializaci mnoha polí a vnořených objektů. Takový inicializační kód je obvykle pohřben uvnitř monstrózního konstruktoru se spoustou parametrů. Nebo jsou vytvořeny podtřídy pro každou možnou konfiguraci objektu.
+
+**Řešení**
+
+Vzor Builder navrhuje, abyste extrahovali kód konstrukce objektu z jeho vlastní třídy a přesunuli jej do samostatných objektů nazývaných stavitelé.
+
+<p>
+  <img src="images/builderUML.png">
+</p>
+
