@@ -29,9 +29,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentBuilder", "GoF\Creati
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FactoryMethod", "FactoryMethod", "{72973E26-75A0-48B2-83B1-2FCC4D1E9C2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFactoryMethod", ""GoF\Creational\FactoryMethod\SimpleFactoryMethod\SimpleFactoryMethod.csproj", "{16ECADC4-329D-4676-BBE3-0D29BA8A0424}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleFactoryMethod", "GoF\Creational\FactoryMethod\SimpleFactoryMethod\SimpleFactoryMethod.csproj", "{16ECADC4-329D-4676-BBE3-0D29BA8A0424}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "GoF\Creational\FactoryMethod\FactoryMethod\FactoryMethod.csproj", "{025FD705-D698-4D48-8098-07E486B9BBEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "GoF\Creational\FactoryMethod\FactoryMethod\FactoryMethod.csproj", "{025FD705-D698-4D48-8098-07E486B9BBEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AbstractFactory", "AbstractFactory", "{65EB9A83-5A25-44CE-B299-3696B2201901}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "GoF\Creational\AbstractFactory\AbstractFactory\AbstractFactory.csproj", "{41F1FB26-D470-45D1-BC95-F4C8E70D0925}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,6 +83,10 @@ Global
 		{025FD705-D698-4D48-8098-07E486B9BBEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{025FD705-D698-4D48-8098-07E486B9BBEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{025FD705-D698-4D48-8098-07E486B9BBEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41F1FB26-D470-45D1-BC95-F4C8E70D0925}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41F1FB26-D470-45D1-BC95-F4C8E70D0925}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41F1FB26-D470-45D1-BC95-F4C8E70D0925}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41F1FB26-D470-45D1-BC95-F4C8E70D0925}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -97,6 +105,8 @@ Global
 		{72973E26-75A0-48B2-83B1-2FCC4D1E9C2B} = {0D2816DF-56A1-4FF7-9586-B6C4137BAC18}
 		{16ECADC4-329D-4676-BBE3-0D29BA8A0424} = {72973E26-75A0-48B2-83B1-2FCC4D1E9C2B}
 		{025FD705-D698-4D48-8098-07E486B9BBEB} = {72973E26-75A0-48B2-83B1-2FCC4D1E9C2B}
+		{65EB9A83-5A25-44CE-B299-3696B2201901} = {0D2816DF-56A1-4FF7-9586-B6C4137BAC18}
+		{41F1FB26-D470-45D1-BC95-F4C8E70D0925} = {65EB9A83-5A25-44CE-B299-3696B2201901}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {079D6E3E-C422-457B-9919-61ACC2889EE0}
