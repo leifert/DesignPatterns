@@ -73,6 +73,13 @@ Návrhové vzory GoF jsou rozděleny do tří kategorií:
 - **Creational (Tvořící vzory):** Návrhové vzory, které se zabývají vytvářením objektu.
 - **Structural (Strukturální vzory):** Návrhové vzory v této kategorii se zabývají strukturou tříd, například dědičností a kompozicí.
 - **Behavioral (Vzory chování):** Tento typ návrhových vzorů poskytuje řešení pro lepší interakci mezi objekty, jak zajistit menší závislost a flexibilitu pro snadné rozšiřování v budoucnosti.
+<p>
+  <img src="images/gof.png">
+</p>
+
+<p>
+  <img src="images/gofinteract.jpg">
+</p>
 
 
 **Creational:**
