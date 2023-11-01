@@ -51,7 +51,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeExplicitDeepCopyIn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeInheritance", "GoF\Creational\Prototype\PrototypeInheritance\PrototypeInheritance.csproj", "{F6D388A3-B21F-4F54-9979-D3C4C32124A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeThroughSerialization", "PrototypeThroughSerialization\PrototypeThroughSerialization.csproj", "{58AFF79C-E965-481F-8AB9-0C0FE31C536E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeThroughSerialization", "GoF\Creational\Prototype\PrototypeThroughSerialization\PrototypeThroughSerialization.csproj", "{58AFF79C-E965-481F-8AB9-0C0FE31C536E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
