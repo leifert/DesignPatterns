@@ -11,7 +11,11 @@
   - [I – Interface Segregation Principle](#_toc149219485)
   - [D – Dependency Inversion Principle](#_toc149219486)
 - [Gang of Four (GoF) Návrhové vzory](#_toc149219487)
+  - [Factory Method (Tovární metoda)](#_factoryMethod)
+  - [Abstract Factory (Abstraktní továrna)](#_abstractFactory)
   - [Builder (Stavitel)](#_builder)
+  - [Prototype (Prototyp)](#_prototype)
+  - [Singleton (Jedináček)](#_singleton)
 
 
 
@@ -131,6 +135,14 @@ Návrhové vzory GoF jsou rozděleny do tří kategorií:
 
 - **Visitor** (Návštěvník) – Umožňuje oddělit algoritmy od objektů, na kterých pracují.
 
+# <a name="_factoryMethod"></a>[Factory Method (Tovární Metoda)](https://github.com/leifert/DesignPatterns/tree/master/GoF/Creational/FactoryMethod)
+
+Vzor Tovární metoda navrhuje nahradit přímé volání konstrukce objektu (pomocí operátoru new) voláním speciální tovární metody. Objekty se stále vytvářejí pomocí operátoru new, ale ten se volá zevnitř tovární metody. Objekty vrácené tovární metodou se často označují jako produkty.
+
+<p>
+  <img src="images/factoryMethodUML.png">
+</p>
+
 # <a name="_builder"></a>[Builder (Stavitel)](https://github.com/leifert/DesignPatterns/tree/master/GoF/Creational/Builder)
 **Problém**
 
@@ -143,4 +155,20 @@ Vzor Builder navrhuje, abyste extrahovali kód konstrukce objektu z jeho vlastn�
 <p>
   <img src="images/builderUML.png">
 </p>
+
+# <a name="_singleton"></a>[Singleton (Jedináček)](https://github.com/leifert/DesignPatterns/tree/master/GoF/Creational/Singleton)
+**Problém**
+
+Zajistěte, aby třída měla pouze jednu instanci.
+
+**Řešení**
+
+- Udělejte výchozí konstruktor soukromým, aby ostatní objekty nemohly používat operátor new s třídou Singleton.
+- Vytvořte statickou metodu GetInstance, která bude fungovat jako konstruktor. Tato metoda zavolá soukromý konstruktor pro vytvoření objektu a uloží jej do statické proměnné. Všechna následující volání této metody vracejí objekt uložený v mezipaměti.
+
+<p>
+  <img src="images/singletonUML.png">
+</p>
+
+
 
